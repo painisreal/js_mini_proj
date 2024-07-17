@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <div class="header">
+          <h2>To-Do List</h2>
+          <img src="assets/check-list.png" alt="" />
+        </div>
+        <div class="search">
+          <input type="text" id="input-box" placeholder="Add task" autofocus />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <div class="task-area">
+            <ul id="task-container">
+                <!-- <li class="checked">Task1</li>
+                <li class="checked">Task2</li>
+                <li>Task3</li> -->
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
